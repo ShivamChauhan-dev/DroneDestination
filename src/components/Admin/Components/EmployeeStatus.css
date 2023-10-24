@@ -1,0 +1,105 @@
+/* EmployeeStatus.css */
+
+/* Container styles */
+.employee-status-container  {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto 0; /* Added margin-top of 20px */
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Heading styles */
+.employee-status-heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styles */
+.employee-status-form {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Style the form group container */
+.form-group {
+margin-bottom: 20px;
+}
+
+/* Style the label */
+.form-group label {
+display: block;
+font-size: 19px;
+margin-right: 15%;
+margin-bottom: 5px;
+color: #333; /* Text color */
+}
+
+/* Style the input field */
+.form-group input[type="text"] {
+width: 50%;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 5px;
+transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Style the input field on focus */
+.form-group input[type="text"]:focus {
+border-color: #007bff; /* Border color on focus */
+box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Box shadow on focus */
+}
+
+
+/* Submit button styles */
+.submit-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #1af006;
+}
+
+/* Employee details styles */
+.employee-details-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.employee-details-container h3{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.employee-details-container p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #444;
+}

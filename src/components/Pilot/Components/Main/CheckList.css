@@ -1,0 +1,190 @@
+.checklist-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .checklist-item {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checklist-item label {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /* Prevent text from wrapping */
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .checklist-item input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .checklist-item ul {
+    margin-top: 5px;
+    list-style: square;
+    padding-left: 20px;
+  }
+  
+  .checklist-item ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Hover effect on label */
+  .checklist-item label:hover {
+    color: #007bff;
+  }
+  
+  /* Checkbox styles */
+  .checklist-item input[type="checkbox"] + label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .checklist-item input[type="checkbox"]:checked + label::before {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Checked checkbox label color */
+  .checklist-item input[type="checkbox"]:checked + label {
+    color: #333;
+  }
+  
+  /* Checked checkbox hover effect */
+  .checklist-item input[type="checkbox"]:checked + label:hover {
+    color: #007bff;
+  }
+  
+  /* Nested list styles */
+  .checklist-item ul li {/* CheckList.css */
+
+    .checklist-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: Arial, sans-serif;
+      text-align: center; /* Center align the container */
+    }
+    
+    .checklist-item {
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Center align checklist items */
+    }
+    
+    .checklist-item label {
+      display: flex;
+      align-items: center;
+      white-space: nowrap; /* Prevent text from wrapping */
+      cursor: pointer;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+    
+    .checklist-item input[type="checkbox"] {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    
+    .checklist-item ul {
+      margin-top: 5px;
+      list-style: square;
+      padding-left: 20px;
+    }
+    
+    .checklist-item ul li {
+      margin-bottom: 5px;
+    }
+    
+    /* Hover effect on label */
+    .checklist-item label:hover {
+      color: #007bff;
+    }
+    
+    /* Checkbox styles */
+    .checklist-item input[type="checkbox"] + label::before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-right: 10px;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+    
+    .checklist-item input[type="checkbox"]:checked + label::before {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+    
+    /* Checked checkbox label color */
+    .checklist-item input[type="checkbox"]:checked + label {
+      color: #333;
+    }
+    
+    /* Checked checkbox hover effect */
+    .checklist-item input[type="checkbox"]:checked + label:hover {
+      color: #007bff;
+    }
+    
+    /* Nested list styles */
+    .checklist-item ul li {
+      position: relative;
+      padding-left: 25px;
+    }
+    
+    .checklist-item ul li::before {
+      content: "\2022"; /* Bullet symbol */
+      position: absolute;
+      left: 0;
+      color: #007bff;
+      font-weight: bold;
+    }
+    
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  .checklist-item ul li::before {
+    content: "\2022"; /* Bullet symbol */
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-weight: bold;
+  }
+  .NextButton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .NextButton:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,36 @@
+/* DPRReport.css */
+
+.DPR-Report {
+  margin: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 1px solid black; */
+  background-color: #f2f2f2; 
+  /* New background color */
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #cccccc;
+  margin-bottom: 2px;
+  background-color: #fff;
+  ;
+   /* New background color */
+}
+
+.head {
+  padding: 10px;
+  /* background-color: #ccc;  */
+  /* New background color */
+}
+
+/* Second Part */

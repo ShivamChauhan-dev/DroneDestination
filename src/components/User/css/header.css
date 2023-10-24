@@ -1,0 +1,21 @@
+/* header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ef6407;
+  padding: 10px;
+}
+
+.header h2 {
+  color: #ffffff;
+  font-size: 34px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,535 @@
+/* Inside SelectField.css or your CSS file
+.FieldsContainer {
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+.FieldsTable {
+  margin: 0 auto;
+  padding: 0;
+  border-collapse: collapse; 
+  width: 60%;
+}
+
+.FieldsTable td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+
+.FieldsTable input[type="text"] {
+  padding: 8px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+  
+  
+  .FieldsTable input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+  }
+  
+  .FieldsTable button[type="submit"] {
+    padding: 8px 16px;
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .FieldsTable button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .FieldsTable button[type="button"] {
+    padding: 8px 16px;
+    margin-right: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .FieldsTable button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  .FieldsTable input::placeholder {
+    color: #ccc;
+  }
+  
+
+  
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .FieldsTable2 {
+    float: left; 
+    width: 20%; 
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .FieldsTable2 button {
+    display: block;
+    width: 94%; 
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  
+  .CreateFieldForm {
+    max-width: 955px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .CreateFieldForm label {
+    display: inline-block;
+    width: 20%;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .CreateFieldForm input[type="text"],
+  .CreateFieldForm select {
+    display: inline-block;
+    width: 25%;
+    padding: 8px;
+    font-size: 14px; 
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .CreateFieldForm input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+  }
+  
+  .CreateFieldForm button[type="submit"],
+  .CreateFieldForm button[type="clear"] {
+    display: inline-block;
+    width: 20%;
+    padding: 8px 16px;
+    font-size: 1p8x; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 7px;
+  }
+  
+  .CreateFieldForm button[type="submit"]:hover,
+  .CreateFieldForm button[type="clear"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+.TablePreview,
+.FormPreview {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TablePreview table,
+.FormPreview form {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.TablePreview th,
+.TablePreview td,
+.FormPreview label,
+.FormPreview input {
+  padding: 4px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.FormPreview label {
+  display: inline-block;
+  font-weight: bold;
+}
+
+
+.TablePreview h2,
+.FormPreview h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.DeleteButton {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.DeleteButton:hover {
+  background-color: #c82333;
+}
+.FormTable {
+  width: 50%;
+  
+}
+
+.FormTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.FormTable th,
+.FormTable td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.FormTable label {
+  font-weight: bold;
+}
+
+
+@media screen and (min-width: 768px) {
+  .FormTable td {
+    padding: 12px;
+  }
+}
+.SmallDevice {
+  padding: 12px;
+} 
+
+
+
+
+
+
+
+/* dfsdfsfsf */
+ .FieldsContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  background-color: #ccc;
+  margin-top: -15px;
+}
+
+.CreateProjectSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* background-color: #f0f0f0; */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.CreateProjectSection label {
+  font-weight: bold;
+  font-size: 20px;
+  white-space: nowrap; /* Prevent label text from wrapping */
+}
+
+.CreateProjectSection input {
+  flex: 1; /* Input takes the remaining space */
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.CreateProjectSection button {
+  padding: 8px 50px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+.CreateProjectSection button[type='clear'] {
+  background-color: #f44336;
+}
+
+.CreateProjectSection button:hover {
+  opacity: 0.8;
+}
+.ProjectSelectSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ProjectSelectSection label {
+  font-weight: bold;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.ProjectSelectSection select {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ProjectSelectSection select option {
+  font-size: 16px;
+}
+
+/* Optionally, style the select dropdown arrow icon */
+.ProjectSelectSection select::-ms-expand {
+  display: none; /* Hide arrow icon for Internet Explorer */
+}
+.ProjectSelectSection select::after {
+  content: '\25BC'; /* Content is a downward-pointing triangle ▼ */
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+/* Style for the hovered and focused state of the select dropdown */
+.ProjectSelectSection select:hover,
+.ProjectSelectSection select:focus {
+  border-color: #aaa;
+}
+/* Add this CSS to your existing CSS file or style block */
+.CreateFieldForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+.CreateFieldForm label {
+  flex: 1;
+  margin-bottom: 8px;
+  font-size:large;
+  padding-top: 1%;
+}
+
+.CreateFieldForm input,
+.CreateFieldForm select {
+  flex:3;
+  width: 100%;
+  /* max-width: 200px; Adjust the max-width as needed */
+  margin-right: 8px;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding and border do not affect the total width */
+}
+.CreateFieldForm button {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ProjectSelectSection,
+.FieldButtonsSection {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button[type='clear'] {
+  background-color: #f44336;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.FieldCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.FieldCard {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  flex-basis: calc(33.33% - 20px);
+  background-color: #f9f9f9;
+}
+
+.FieldCard h3 {
+  margin: 0;
+}
+
+.FieldCard p {
+  margin: 10px 0;
+}
+
+.DeleteButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add your own styles as needed */
+
+.FieldCardsSection {
+  margin-top: 20px;
+}
+
+.FieldCardsSection h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.FieldCardsSection table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.FieldCardsSection th,
+.FieldCardsSection td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.FieldCardsSection th {
+  background-color: #f2f2f2;
+}
+
+.FieldCardsSection td input[type="text"],
+.FieldCardsSection td select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.FieldCardsSection td input[type="text"]:focus,
+.FieldCardsSection td select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.FieldCardsSection td button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.FieldCardsSection td button.RenameButton {
+  background-color: #007bff;
+}
+
+.FieldCardsSection td button.DeleteButton {
+  background-color: #dc3545;
+}
+
+.FieldCardsSection td button:hover {
+  opacity: 0.8;
+}
+
+.FormPreview {
+  margin-top: 20px;
+}
+
+.FormPreview h2 {
+  margin-bottom: 10px;
+}
+
+.FormPreviewTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.FormPreviewTable th,
+.FormPreviewTable td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.FormPreviewTable th {
+  background-color: #f2f2f2;
+}
+
+.FormPreviewTable td input {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.FormPreviewTable button {
+  margin-top: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .FormTable td {
+    padding: 12px;
+  }
+}
+.SmallDevice {
+  padding: 12px;
+}

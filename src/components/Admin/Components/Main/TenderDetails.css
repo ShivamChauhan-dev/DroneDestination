@@ -1,0 +1,119 @@
+.TENDER-container form {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.TENDER-container h2 {
+  font-size: 34px; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Style the input container */
+.Tender-SL,
+.Tender-TITLE,
+.Tender-DEPARTMENT,
+.Tender-MOS,
+.Tender-LOCATION,
+.Tender-DOS,
+.Tender-EMD,
+.Tender-DOBP,
+.Tender-OPS,
+.Tender-RFNP,
+.Tender-L1,
+.Tender-L2,
+.Tender-L3,
+.Tender-L4,
+.Tender-L5,
+.Tender-REMARK {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Align inputs to the right and labels to the left */
+}
+
+/* Style the label */
+.Tender-SL label,
+.Tender-TITLE label,
+.Tender-DEPARTMENT label,
+.Tender-MOS label,
+.Tender-LOCATION label,
+.Tender-DOS label,
+.Tender-EMD label,
+.Tender-DOBP label,
+.Tender-OPS label,
+.Tender-RFNP label,
+.Tender-L1 label,
+.Tender-L2 label,
+.Tender-L3 label,
+.Tender-L4 label,
+.Tender-L5 label,
+.Tender-REMARK label {
+  margin-right: 10px; /* Adjust margin to separate input and label */
+  text-align: left; /* Align the label to the left */
+  font-size: 17px; /* Adjust the font-size as needed */
+}
+.Tender-SL input[type="text"], 
+.Tender-TITLE input[type="text"],
+.Tender-DEPARTMENT input[type="text"],
+.Tender-MOS input[type="text"],
+.Tender-LOCATION input[type="text"],
+.Tender-DOS input[type="text"],
+.Tender-EMD input[type="text"],
+.Tender-DOBP input[type="text"],
+.Tender-OPS input[type="text"],
+.Tender-RFNP input[type="text"],
+.Tender-L1 input[type="text"],
+.Tender-L2 input[type="text"],
+.Tender-L3 input[type="text"],
+.Tender-L4 input[type="text"],
+.Tender-L5 input[type="text"],
+.Tender-REMARK input[type="text"] 
+{
+  width: 70%;
+  height: 35px; /* Adjust the height as needed */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  float: right; /* Align input text to the right */
+  transition: border-color 0.3s, background-color 0.3s; /* Add a smooth transition for border and background-color */
+}
+.Tender-SL input[type="text"]:hover, 
+.Tender-TITLE input[type="text"]:hover,
+.Tender-DEPARTMENT input[type="text"]:hover,
+.Tender-MOS input[type="text"]:hover,
+.Tender-LOCATION input[type="text"]:hover,
+.Tender-DOS input[type="text"]:hover,
+.Tender-EMD input[type="text"]:hover,
+.Tender-DOBP input[type="text"]:hover,
+.Tender-OPS input[type="text"]:hover,
+.Tender-RFNP input[type="text"]:hover,
+.Tender-L1 input[type="text"]:hover,
+.Tender-L2 input[type="text"]:hover,
+.Tender-L3 input[type="text"]:hover,
+.Tender-L4 input[type="text"]:hover,
+.Tender-L5 input[type="text"]:hover,
+.Tender-REMARK input[type="text"]:hover,
+.Tender-SL input[type="text"]:focus, 
+.Tender-TITLE input[type="text"]:focus,
+.Tender-DEPARTMENT input[type="text"]:focus,
+.Tender-MOS input[type="text"]:focus,
+.Tender-LOCATION input[type="text"]:focus,
+.Tender-DOS input[type="text"]:focus,
+.Tender-EMD input[type="text"]:focus,
+.Tender-DOBP input[type="text"]:focus,
+.Tender-OPS input[type="text"]:focus,
+.Tender-RFNP input[type="text"]:focus,
+.Tender-L1 input[type="text"]:focus,
+.Tender-L2 input[type="text"]:focus,
+.Tender-L3 input[type="text"]:focus,
+.Tender-L4 input[type="text"]:focus,
+.Tender-L5 input[type="text"]:focus,
+.Tender-REMARK input[type="text"]:focus{
+  border-color: #007bff;
+  background-color: #e8f3fe; /* Change the background color when hovered or focused */
+}

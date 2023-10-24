@@ -1,0 +1,75 @@
+.Shipment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 1900px; /* Adjust the width as needed */
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9); /* Add a box shadow to all sides */
+  }
+  .Shipment h2 {
+    text-align: left;
+}
+  
+  .tabel-form {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  th, td {
+    /* padding: 5px; */
+    margin-bottom: -5px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .Shipment-list input[type="text"],
+    input[type=date] {
+    font-size: 13px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px 10px;
+    margin-bottom: 0px; 
+    border: 2px solid #ccc;
+    border-radius: 4px; 
+    transition: border-color 0.3s;
+    }
+    
+  .Shipment-list input:hover{
+    border-color: #007bff;
+  }
+  .center-text {
+    margin-top: 1%;
+    text-align: center; 
+  }
+  /* Define the default button styles */
+.Shipment-list button {
+    background-color: rgb(7, 129, 205); /* Default button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  /* Define the hover effect */
+  .Shipment-list button:hover {
+    background-color: green; /* Change background color to green on hover */
+  }
+  
+
+  

@@ -1,0 +1,22 @@
+/* header.css */
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ef6407;
+    padding: 10px;
+  }
+  
+  .heading h2 {
+    color: #fefbfb;
+    font-size: 34px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .heading-actions {
+    display: flex;
+    align-items: center;
+  }
+  

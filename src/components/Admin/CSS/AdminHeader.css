@@ -1,0 +1,93 @@
+/* header.css */
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ef6407;
+    padding: 10px;
+  }
+  
+  .heading h2 {
+    color: #fefbfb;
+    font-size: 34px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .heading-actions {
+    display: flex;
+    align-items: center;
+  }
+  .floating-bubble {
+    position: fixed;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.2s;
+  }
+  
+  .floating-bubble.dragging {
+    transition: none;
+  }
+  
+  .bubble-icon {
+    font-size: 24px;
+  }
+
+  @media (max-width: 768px) {
+    .heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:#ef6407;
+      padding: 2px;
+      width: 200%;
+    }
+  
+  .heading h2 {
+    color: #fefbfb;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    margin-left: 10px ;
+  }
+
+  .floating-bubble {
+    position: fixed;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.2s;
+  }
+  
+  .floating-bubble.dragging {
+    transition: none;
+  }
+  
+  .bubble-icon {
+    font-size: 24px;
+  }
+  .heading button{
+    margin-top: 20px;
+    padding: 3px 20px;
+    margin-right: 10px;
+  }
+  }
+  

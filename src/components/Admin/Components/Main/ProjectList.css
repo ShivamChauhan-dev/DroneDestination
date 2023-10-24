@@ -1,0 +1,102 @@
+.project-list-container {
+  text-align: left;
+  padding-top: 10px;
+  background-color: #333;
+}
+
+
+
+/* ProjectList.css */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: relative; /* Add position relative to the navbar container */
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-list li {
+    margin: 0 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative; /* Add position relative to the list items */
+  }
+  
+  .navbar-list li:hover {
+    /* background-color: #555; */
+    color: #ffcc00;
+  }
+  
+  /* Add a transition for smooth hover effect */
+  .navbar-list li {
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Dropdown styles */
+  .dropdown {
+    position: absolute;
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(60, 60, 60, 0.2);
+    top: 100%;
+    left: 50%; /* Center the dropdown horizontally */
+    transform: translateX(-50%); /* Translate to center */
+    width: 120px;
+    padding: 8px;
+  }
+  
+  .dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown ul li {
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  
+
+/* ... Previous styles ... */
+.sub-dropdown {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translateX(-10px); /* Adjust the position to align it nicely */
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    padding: 8px;
+    /* font-size:x-small; */
+  }
+  
+  .sub-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sub-dropdown ul li {
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size:medium;
+  }
+  
+  
+  
+  /* ... Additional styles ... */
+  

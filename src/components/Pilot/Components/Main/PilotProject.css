@@ -1,0 +1,257 @@
+/* PilotProject.css */
+
+.ProjectContainer {
+    max-width: 1400px; /* Decreased max-width */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+  }
+  
+  .SelectSection {
+    margin-bottom: 10px;
+    text-align: center; /* Center align text */
+  }
+  
+  .Selected-Project {
+    margin-bottom: 10px;
+    text-align: center; /* Center align text */
+  }
+  
+  .Project-Fields-Form table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  .Project-Fields-Form th,
+  .Project-Fields-Form td {
+    /* border: 1px solid #ccc; */
+    padding: 6px;
+    text-align: center;
+  }
+  
+  .Project-Fields-Form th {
+    background-color: #f2f2f2;
+    
+  }
+  
+  .Project-Fields-Form input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .Project-Fields-Form button[type="submit"] {
+    display: block; /* Make button full width */
+    margin: 0 auto; /* Center align button horizontally */
+    padding: 6px 32px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Project-Fields-Form button[type="submit"]:hover {
+    background-color: #0444f7;
+  }
+  .UploadSection {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .UploadButton {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .UploadButton:hover {
+    background-color: #0056b3;
+  }
+  .tabledata {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabledata th,
+  .tabledata td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .tabledata th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .tabledata td {
+    position: relative; /* Enable relative positioning */
+    font-weight: bold;
+  }
+  
+  .tabledata textarea {
+    width: 100%;
+    height: 100%; /* Ensure textarea takes up full cell height */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: none;
+    transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+  }
+  
+  .tabledata td:hover textarea,
+  .tabledata td textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    background-color: #e3effc;
+  } 
+  /* NewProject.css */
+
+/* ... Previous styles ... */
+
+.tabledata table {
+  width: 100%;
+  /* border-collapse: collapse; */
+}
+
+.tabledata th,
+.tabledata td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.tabledata th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tabledata td {
+  position: relative;
+}
+
+.tabledata input[type="date"],
+.tabledata textarea {
+  width: 100%;
+  padding-bottom: 45px;
+  margin-top: -6px;
+  margin-bottom: -12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: none;
+  transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.tabledata td:hover input[type="date"],
+.tabledata td textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  background-color: #e3effc;
+}
+/* Add this CSS code to your existing stylesheet or create a new one */
+.NextButton {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 40px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.NextButton:hover {
+  background-color: #0056b3;
+}
+.SelectSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+.SelectSection label {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px; /* Add some space between the label and the select element */
+}
+
+/* Style for the select element */
+.SelectSection select {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-top: 20px;
+}
+.dropdown-cell {
+  width: 150px;
+  /* align-items: top; */
+}
+.dropdown-cell select{
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  background-color: #f9f9f9;
+  color: #333;
+ 
+}
+.dropdown-cell-2{
+  width: 20%;
+}
+
+
+/* Adjust the styles for small devices */
+@media (max-width: 368px) {
+  .ProjectContainer {
+    max-width: 90%; /* Example: Decrease max-width for smaller screens */
+  }
+
+  .tabledata {
+    margin: 0 auto; /* Center the table horizontally */
+    max-width: 90%; /* Add space from both sides */
+  }
+
+  /* Adjust the width of the table cells */
+  /* .tabledata th, */
+  .tabledata td {
+    padding: 15px; /* Adjust padding as needed */
+  }
+  .tabledata th {
+    font-size: 4px; /* Adjust the font size as needed */
+  }
+  /* Adjust the width of date inputs and textareas inside the table */
+  .tabledata input[type="date"]
+  {
+    width: 100%; /* Make them full-width within the table cell */
+    padding: 8px; /* Adjust padding as needed */
+    margin: 0; /* Remove margin */
+  }
+  textarea {
+    height: 50px; /* Adjust the height as per your requirement */
+  }
+
+  .NextButton {
+    display: block;
+    margin: 0 auto;
+    text-align: center; /* Center-align the text within the button */
+  }
+}

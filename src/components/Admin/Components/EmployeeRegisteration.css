@@ -1,0 +1,83 @@
+/* Style the form container */
+.emp-form {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the form header */
+.emp-form h2 {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the input container */
+.emp-form div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Style the label */
+.emp-form label {
+  flex: 1; /* Allow labels to take up equal space */
+  margin-right: 10px;
+  text-align: left;
+  font-size: 17px;
+}
+
+/* Style the input fields */
+.emp-form input[type="text"],
+.emp-form input[type="date"],
+.emp-form input[type="email"],
+.emp-form input[type="number"],
+.emp-gender select {
+  flex: 2; /* Allow inputs to take up more space */
+  height: 45px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+
+/* Style the input fields when hovered or focused */
+.emp-gender select:hover,
+.emp-gender select:focus,
+.emp-form input[type="email"]:hover,
+.emp-form input[type="email"]:focus,
+.emp-form input[type="number"]:hover,
+.emp-form input[type="number"]:focus,
+.emp-form input[type="text"]:hover,
+.emp-form input[type="text"]:focus,
+.emp-form input[type="date"]:hover,
+.emp-form input[type="date"]:focus {
+  border-color: #007bff;
+  background-color: #e8f3fe;
+}
+
+/* Style the submit button */
+.emp-form button[type="submit"] {
+  display: inline-block;
+  margin-top: 10px; /* Add margin to separate the button from inputs */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.emp-form button[type="submit"]:hover {
+  background-color: #44f36d;
+}

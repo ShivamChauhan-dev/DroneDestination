@@ -1,0 +1,85 @@
+.custom-mobilization-summary {
+  width: 90%;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #f2f2f2; */
+  border-radius: 5px;
+}
+
+.custom-mobilization-summary h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.custom-mobilization-summary form {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-mobilization-summary table {
+  width: 100%;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+}
+
+.custom-mobilization-summary table td,
+.custom-mobilization-summary table th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.custom-mobilization-summary table tr:last-child td {
+  border-bottom: none;
+}
+
+.custom-mobilization-summary label {
+  font-weight: bold;
+}
+
+.custom-mobilization-summary input[type="text"],
+.custom-mobilization-summary input[type="number"],
+.custom-mobilization-summary select {
+  width: 45%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.custom-mobilization-summary input[type="file"] {
+  margin-top: 5px;
+}
+
+.custom-mobilization-summary .battery-serial-numbers,
+.custom-mobilization-summary .emlid-serial-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.custom-mobilization-summary .battery-serial-numbers input[type="text"],
+.custom-mobilization-summary .emlid-serial-numbers input[type="text"] {
+  flex: 1 1 200px;
+}
+
+.custom-mobilization-summary .button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom-mobilization-summary button[type="submit"] {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  margin-bottom: 8%;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-mobilization-summary button[type="submit"]:hover {
+  background-color: #099df3;
+}

@@ -1,0 +1,46 @@
+/* header.css */
+
+.pilot-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#ef6407;
+  padding: 10px;
+}
+
+.pilot-heading h2 {
+  color: #fefbfb;
+  font-size: 34px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.pilot-heading-actions {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .pilot-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ef6407;
+    padding: 2px;
+    width: 270%;
+  }
+
+  .pilot-heading h2 {
+    color: #fefbfb;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    margin-left: 10px ;
+  }
+  .pilot-heading button{
+    margin-top: 20px;
+    padding: 3px 20px;
+    margin-right: 10px;
+
+  }
+}

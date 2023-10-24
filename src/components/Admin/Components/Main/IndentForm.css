@@ -1,0 +1,310 @@
+  .indent-form {
+      border: 1px solid #ccc;
+      padding: 20px;
+      max-width: 1300px; /* Adjust the maximum width as needed */
+      margin: 0 auto; /* Center the box horizontally on the page */
+      background-color: #f9f9f9;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9); /* Add a box shadow to all sides */
+    }
+    
+    
+    .indent-form h2 {
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+    
+    .form-group-1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    .form-group-1 label {
+      margin-right: 10px; /* Adjust margin to separate input and label */
+      text-align: left;
+      font-size: 18px; /* Adjust the font-size as needed */
+
+    }
+    
+    .form-group-1 input[type="text"] {
+      width: 20%;
+      height: 30px; /* Adjust the height as needed */
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      float: left;
+      transition: border-color 0.3s;
+      transition: background-color 0.3s; /* Add a smooth transition for background-color */
+    }
+    
+    .form-group-1 input[type="text"]:hover,
+    .form-group-1 input[type="text"]:focus {
+      border-color: #007bff;
+      background-color: #e8f3fe   ; /* Change the background color when hovered or focused */
+    }
+    .form-department {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    .form-department label {
+      margin-right: 10px;
+      text-align: left;
+      font-size: 18px; /* Adjust the font-size as needed */
+    }
+    
+    
+    .form-department input[type="text"] {
+      width: 20%;
+      height: 30px; /* Adjust the height as needed */
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      float: left;
+      margin-left: 4.5%;
+      transition: border-color 0.3s;
+      transition: background-color 0.3s;
+    }
+    .form-department input[type="text"]:hover,
+    .form-department input[type="text"]:focus {
+      border-color: #007bff;
+      background-color: #e8f3fe; /* Change the background color when hovered or focused */
+    }
+    .form-date {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+  .form-date label {
+      margin-right: 10px;
+      margin-top: 2px;
+      text-align: left;
+      font-size: 18px; /* Adjust the font-size as needed */
+    }
+    
+    
+  .form-date input[type="date"] {
+      width: 20%;
+      height: 34px; /* Adjust the height as needed */
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      float: left;
+      margin-left: 9.5%;
+      margin-top: 1px;
+      transition: border-color 0.3s;
+      transition: background-color 0.3s;
+    }
+    .form-date input[type="date"]:hover,
+    .form-date input[type="date"]:focus {
+      border-color: #007bff;
+      background-color: #e8f3fe   ; /* Change the background color when hovered or focused */
+    }
+    /* .form-productdescription {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    } */
+    
+  .form-productdescription label {
+      display: block;
+      margin-bottom: 5px; /* Adjust margin to separate label and input */
+      text-align: left;
+      margin-top: 35px;
+      font-size: 18px; /* Adjust the font-size as needed */
+    }
+    
+    .form-productdescription textarea {
+      width: 100%; /* Make the input box full width */
+      height: 100px; /* Adjust the height as needed */
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      overflow-wrap: break-word; /* Allow text to wrap */
+      transition: border-color 0.3s;
+      transition: background-color 0.3s;
+    } 
+    .form-productdescription textarea:hover,
+    .form-productdescription textarea:focus {
+      border-color: #007bff;
+      background-color: #e8f3fe   ; /* Change the background color when hovered or focused */
+    }
+    /* YourComponent.css or your global CSS file */
+
+  .tabel-form {
+      margin-top: 20px;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+    
+    th, td {
+      /* padding: 5px; */
+      margin-bottom: -5px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    .tabel-form input[type="text"] {
+      width: 100%;
+      height: 40px;
+      margin-top: 10px 10px;
+      margin-bottom: 0px; 
+      border: 2px solid #ccc;
+      border-radius: 4px; 
+      transition: border-color 0.3s;
+    }
+    .tabel-form input:hover{
+      border-color: #007bff;
+    }
+    .center-text {
+      margin-top: 1%;
+      text-align: center; 
+    }
+  .total-group {
+    text-align: right; /* Aligns everything to the right */
+    display: flex; /* Use flexbox to display label and input on the same line */
+    justify-content: flex-end; /* Align content to the end (right) of the container */
+    align-items: center; /* Vertically center items */
+  }
+
+  .total-group label {
+    margin-right: 7%;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  /* Style the inputs if needed */
+  .total-group input[type="text"] {
+    width: 18.65%; /* Adjust the width as needed */
+    margin-right: 1.9px;
+  }
+  .signature-form {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .signature-form div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .signature-form label {
+    width: 165px; /* Increase the label width */
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  .signature-form input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 60px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    transition: background-color 0.3s;
+  }
+  .signature-form input[type="text"]:hover,
+  .signature-form input[type="text"]:focus {
+      border-color: #007bff;
+      background-color: #e8f3fe   ; /* Change the background color when hovered or focused */
+  }
+  .Payment-text {
+    margin-top: 1%;
+    text-align: center; 
+    font-size: 20px;
+  }
+  .payment-form {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .payment-form div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .payment-form label {
+    width: 280px; /* Increase the label width */
+    text-align: right;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  .payment-form input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    transition: background-color 0.3s;
+  }
+  .payment-form input[type="text"]:hover,
+  .payment-form input[type="text"]:focus {
+      border-color: #007bff;
+      background-color: #e8f3fe   ; /* Change the background color when hovered or focused */
+  }
+  
+  @media (max-width: 768px) {
+    .indent-form {
+      max-width: 100%; /* Full width for smaller screens */
+    }
+  
+    .form-group-1 label,
+    .form-department label,
+    .form-date label,
+    .form-productdescription label,
+    /* .total-group label, */
+    .signature-form label,
+    .Payment-text,
+    .payment-form label {
+      width: 100%; /* Make labels full width on smaller screens */
+      text-align: left; /* Left-align labels on smaller screens */
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    .tabel-form th {
+      font-size: 14px;
+    }
+  
+    .form-group-1 input[type="text"],
+    .form-department input[type="text"],
+    .form-date input[type="date"],
+    .form-productdescription textarea,
+    /* .total-group input[type="text"], */
+    .signature-form input[type="text"],
+    .payment-form input[type="text"] {
+      width: 100%; /* Make inputs full width on smaller screens */
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+    .group-button button {
+      padding: 5px 20px; /* Adjust padding for smaller screens */
+      font-size: 15px; /* Adjust font size for smaller screens */
+    }
+  }
+  

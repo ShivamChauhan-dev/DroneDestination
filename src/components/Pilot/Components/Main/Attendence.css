@@ -1,0 +1,90 @@
+.Attendence-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+
+.Attendence {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 40%;
+  text-align: center; /* Center-align the content within the box */
+}
+
+.Attendence h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Attendence form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Attendence input[type="text"],
+.Attendence input[type="date"],
+.Attendence input[type="time"]{
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.Attendence button {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  /* padding: 10px; */
+  width: 100%;
+}
+
+.Attendence button:hover {
+  background-color: #0056b3;
+}
+/* Media query for small devices */
+@media (max-width: 768px) {
+.Attendence-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align the container at the top */
+  height: 100vh; /* Ensure the container takes up the full viewport height */
+  margin-top: 50px;
+  
+}
+
+.Attendence {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 90%;
+  text-align: center; /* Center-align the content within the box */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0  0 10px rgba(255, 123, 0, 0.5); /* Add box shadow */
+}
+
+.Attendence h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Attendence input[type="text"],
+.Attendence input[type="date"],
+.Attendence input[type="time"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.Attendence button {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px ;
+  width: 40%;
+  font-size: 12px;
+}
+}
